@@ -1,5 +1,13 @@
 # ChatBot
 
+ChatBot 是一个基于 Python 的智能语音交互机器人项目。
+
+该项目是我在中南大学（CSU）人机交互（HCI）课程中的实验之一。
+
+本学期结束后我会对该项目进行更新，敬请期待！相信它会对你大有帮助！（因为你在网上几乎找不到类似的轻量级资源/项目）
+
+---
+
 ChatBot is an Intelligent Voice Interactive Robot based on python. 
 This project is one of the experiments in the HCI course at CSU
 
@@ -7,7 +15,9 @@ I will update this project soon after the end of this term. Please wait and see.
 
 
 
-## 实验二：带有语音处理功能的界面设计
+
+
+## 实验：带有语音处理功能的界面设计
 
 ### 一、设计目的与任务
 
@@ -59,16 +69,16 @@ I will update this project soon after the end of this term. Please wait and see.
 我们使用青云客的智能聊天（NLP）功能接口api，从而实现智能语音问答的功能
 如图13 为青云客平台api调用规范
 
-#### ![image-20241106220633728](/Users/gnonymous/Library/Application Support/typora-user-images/image-20241106220633728.png)3.1 语音助手原理流程图
+#### ![image-20241106220633728](img/image-20241106220633728.png)3.1 语音助手原理流程图
 
-![image-20241106220644365](/Users/gnonymous/Library/Application Support/typora-user-images/image-20241106220644365.png)
+![image-20241106220644365](img/image-20241106220644365.png)
 图14 语音助手原理流程图
 
 #### 3.2 各模块功能分析与联系
 
 ##### 3.2.1 录音模块
 
-![image-20241106220655019](/Users/gnonymous/Library/Application Support/typora-user-images/image-20241106220655019.png)
+![image-20241106220655019](img/image-20241106220655019.png)
 图15 录音模块功能图
 
 1. 功能:  用于录制音频并保存为.wav文件。该代码使用了`sounddevice`库进行录音，以及`keyboard`库检测是否按下 'q' 键来停止录音，具体如图15所示。
@@ -108,7 +118,7 @@ def record_and_save(filename, sample_rate=44100):
 
 ##### 3.2.2 ASR模块
 
-![image-20241106220717396](/Users/gnonymous/Library/Application Support/typora-user-images/image-20241106220717396.png)
+![image-20241106220717396](img/image-20241106220717396.png)
 								图16 ASR模块功能图
 
 使用腾讯云的语音识别（ASR）服务进行音频文件的识别。主要步骤包括：
@@ -193,7 +203,7 @@ def asr(output_filename):
 
 ##### 3.2.3 青云客机器人模块
 
-![image-20241106220752521](/Users/gnonymous/Library/Application Support/typora-user-images/image-20241106220752521.png)
+![image-20241106220752521](img/image-20241106220752521.png)
 图17 青云客机器人模块功能图
 
 使用了 Python 的 `requests` 库来发起 HTTP 请求，并通过 GET 请求向青云客的 API 发送用户输入的消息，通过调用该模块api，用于与青云客（Qingyunke）的智能聊天机器人进行对话。以下是代码的主要步骤：
@@ -236,7 +246,7 @@ def chat_with_qingyunke(msg):
 
 ##### 3.2.4 TTS模块
 
-![image-20241106220801336](/Users/gnonymous/Library/Application Support/typora-user-images/image-20241106220801336.png)
+![image-20241106220801336](img/image-20241106220801336.png)
 图18 TTS模块功能图
 
 使用腾讯云的语音合成（TTS）服务，将指定的文本转换为语音，参见图18。以下是代码的主要功能和步骤：
@@ -379,7 +389,7 @@ def tts(text):
 
 ##### 3.2.5 语音应答模块
 
-![image-20241106220814207](/Users/gnonymous/Library/Application Support/typora-user-images/image-20241106220814207.png)该模块用于使用 `pygame` 播放指定路径的音频文件，参见图19。以下是代码的主要功能和步骤：
+![image-20241106220814207](img/image-20241106220814207.png)该模块用于使用 `pygame` 播放指定路径的音频文件，参见图19。以下是代码的主要功能和步骤：
 
 1. 导入 `pygame` 库，`pygame` 是一个用于游戏开发的库，其中包含音频播放功能。
 2. 定义了一个 `play_audio` 函数，接受音频文件的路径作为参数。
@@ -478,27 +488,27 @@ class ChatGUI:
 附带欢迎语句，以及相应操作引导。
 交互界面功能简洁，入口一目了然。
 
-![image-20241106220848639](/Users/gnonymous/Library/Application Support/typora-user-images/image-20241106220848639.png)智能的将与机器人的语音对话转化为文字显示在界面上，一方面助于追溯，另一方面便于用户使用
+![image-20241106220848639](img/image-20241106220848639.png)智能的将与机器人的语音对话转化为文字显示在界面上，一方面助于追溯，另一方面便于用户使用
 
 同时对话内容标注语音发起者 `我` 和`chatbot`，更加清晰易懂
 
-![image-20241106220858199](/Users/gnonymous/Library/Application Support/typora-user-images/image-20241106220858199.png)
+![image-20241106220858199](img/image-20241106220858199.png)
 图22 对话页面
 
 **控制台输出解读**
 
 1. 可以看到，点击`开始语音对话`后，录音模块开始运行，输出`Recording...(press 'q' to stop)`来对用户进行引导，告知正在听取语音输入，并且指导如何结束语音输入。最终`Audio saved as recorded_audio.wav`
 
-![image-20241106220911922](/Users/gnonymous/Library/Application Support/typora-user-images/image-20241106220911922.png)
+![image-20241106220911922](img/image-20241106220911922.png)
 
 2. 调用腾讯云ASR模块进行语音识别：
-   ![image-20241106220923793](/Users/gnonymous/Library/Application Support/typora-user-images/image-20241106220923793.png)
+   ![image-20241106220923793](img/image-20241106220923793.png)
 
 3. 调用青客云机器人进行智能回答：
-   ![image-20241106220933791](/Users/gnonymous/Library/Application Support/typora-user-images/image-20241106220933791.png)
+   ![image-20241106220933791](img/image-20241106220933791.png)
 
 4. 调用腾讯云TTS进行语音合成：
-   ![image-20241106220939404](/Users/gnonymous/Library/Application Support/typora-user-images/image-20241106220939404.png)
+   ![image-20241106220939404](img/image-20241106220939404.png)
 
    ~~~
    subtitles=[{'Text': '今', 'BeginTime': 250, 'EndTime': 480, 'BeginIndex': 0, 'EndIndex': 1, 'Phoneme': 'jin1'}, {'Text': '天', 'BeginTime': 480, 'EndTime': 730, 'BeginIndex': 1, 'EndIndex': 2, 'Phoneme': 'tian1'}, {'Text': '星', 'BeginTime': 730, 'EndTime': 930, 'BeginIndex': 2, 'EndIndex': 3, 'Phoneme': 'xing1'}, {'Text': '期', 'BeginTime': 930, 'EndTime': 1180, 'BeginIndex': 3, 'EndIndex': 4, 'Phoneme': 'qi1'}, {'Text': '日', 'BeginTime': 1180, 'EndTime': 1380, 'BeginIndex': 4, 'EndIndex': 5, 'Phoneme': 'ri4'}, {'Text': '', 'BeginTime': 1380, 'EndTime': 1580, 'BeginIndex': 5, 'EndIndex': 6, 'Phoneme': 'SIL'}]
