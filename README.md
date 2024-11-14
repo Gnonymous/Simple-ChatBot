@@ -27,10 +27,23 @@ I will update this project soon after the end of this term. Please wait and see.
 * 前端：
   * 基于 **Tkinter** 的GUI
 
-> 该项目并不复杂，并没有负责的前后端，“后端“以``函数``的形式。
+> 该项目并不复杂，并没有复杂的前后端，“后端“以``函数``的形式。
 
 ### File Structure:
 
+├─[Exp_Report.md](https://github.com/Gnonymous/Simple-ChatBot/blob/main/Exp_Report.md)「详细的实验报告」
+├─ README.md
+├─ asr
+├─ [chatbot_withoutGUI.py](https://github.com/Gnonymous/Simple-ChatBot/blob/main/chatbot_withoutGUI.py)「基于终端的chatbot——了解后端处理」
+├─ [chatbot_withGUI.py](https://github.com/Gnonymous/Simple-ChatBot/blob/main/chatbot_withGUI.py)「基于GUI交互的chatbot——串联前后端处理」
+├─ common
+├─ examples
+│  ├─ asr
+│  └─ tts
+├─ img
+└─ tts
+
+```markdown
 ├─ [Exp_Report.md](https://github.com/Gnonymous/Simple-ChatBot/blob/main/Exp_Report.md)「详细的实验报告」
 ├─ README.md
 ├─ asr
@@ -42,6 +55,9 @@ I will update this project soon after the end of this term. Please wait and see.
 │  └─ tts
 ├─ img
 └─ tts
+```
+
+
 
 ---
 
