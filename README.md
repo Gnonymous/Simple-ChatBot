@@ -4,14 +4,14 @@ Simple-ChatBot 是一个基于 Python 的简易（但蠢笨）智能语音交互
 
 该项目是我在中南大学（CSU）人机交互（HCI）课程中的实验之一。
 
-本学期结束后我会对该项目进行更新，敬请期待！相信它会对你大有帮助！（因为你在网上几乎找不到类似的轻量级资源/项目）
+本学期结束后我会对该项目进行更新，敬请期待！相信它会对你大有帮助！（因为你在网上几乎找不到类似的轻量级开源资源/项目）
 
 ---
 
 ChatBot is an Intelligent Voice Interactive Robot based on python. 
 This project is one of the experiments in the HCI course at CSU
 
-I will update this project soon after the end of this term. Please wait and see.l'm sure it will give you a great hand!(because you can't find related light-weight source/projects on the internet)
+I will update this project soon after the end of this term. Please wait and see.l'm sure it will give you a great hand!(because you can't find related light-weight open source/projects on the internet)
 
 ---
 
