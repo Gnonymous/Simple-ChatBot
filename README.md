@@ -31,24 +31,12 @@ I will update this project soon after the end of this term. Please wait and see.
 
 ### File Structure:
 
-├─[Exp_Report.md](https://github.com/Gnonymous/Simple-ChatBot/blob/main/Exp_Report.md)「详细的实验报告」
-├─ README.md
-├─ asr
-├─ [chatbot_withoutGUI.py](https://github.com/Gnonymous/Simple-ChatBot/blob/main/chatbot_withoutGUI.py)「基于终端的chatbot——了解后端处理」
-├─ [chatbot_withGUI.py](https://github.com/Gnonymous/Simple-ChatBot/blob/main/chatbot_withGUI.py)「基于GUI交互的chatbot——串联前后端处理」
-├─ common
-├─ examples
-│  ├─ asr
-│  └─ tts
-├─ img
-└─ tts
-
 ```markdown
-├─ [Exp_Report.md](https://github.com/Gnonymous/Simple-ChatBot/blob/main/Exp_Report.md)「详细的实验报告」
+├─ [Exp_Report.md]「详细的实验报告」
 ├─ README.md
 ├─ asr
-├─ [chatbot_withoutGUI.py](https://github.com/Gnonymous/Simple-ChatBot/blob/main/chatbot_withoutGUI.py)「基于终端的chatbot——了解后端处理」
-├─ [chatbot_withGUI.py](https://github.com/Gnonymous/Simple-ChatBot/blob/main/chatbot_withGUI.py)「基于GUI交互的chatbot——串联前后端处理」
+├─ [chatbot_withoutGUI.py]「基于终端的chatbot——了解后端处理」
+├─ [chatbot_withGUI.py]「基于GUI交互的chatbot——串联前后端处理」
 ├─ common
 ├─ examples
 │  ├─ asr
@@ -56,8 +44,6 @@ I will update this project soon after the end of this term. Please wait and see.
 ├─ img
 └─ tts
 ```
-
-
 
 ---
 
