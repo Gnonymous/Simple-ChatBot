@@ -7,9 +7,10 @@ from asr import flash_recognizer
 
 def asr(output_filename):
     # 注意：使用前务必先填写APPID、SECRET_ID、SECRET_KEY，否则会无法运行！！！
-    APPID = "1323746084"
-    SECRET_ID = "AKIDfFj1DUtaF3wT1W5XKMFG8209NWl9To4L"
-    SECRET_KEY = "c3TksnUGGHAC8wZ0Kj2JWeltyIXhzVwc"
+    # 已做脱敏化处理
+    APPID = "13xxxxx84"
+    SECRET_ID = "AKxxxxxxxxxxxxxxxxxxxxx4L"
+    SECRET_KEY = "c3xxxxxxxxxxxxxxxxxxxxxxxwc"
     ENGINE_TYPE = "16k_zh"
 
 

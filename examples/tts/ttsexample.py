@@ -13,9 +13,9 @@ from common.log import logger
 from common.utils import is_python3
 
 def tts(text):
-    APPID = "1323746084"
-    SECRET_ID = "AKIDfFj1DUtaF3wT1W5XKMFG8209NWl9To4L"
-    SECRET_KEY = "c3TksnUGGHAC8wZ0Kj2JWeltyIXhzVwc"
+    APPID = "13xxxxxxxx4"
+    SECRET_ID = "AKxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx4L"
+    SECRET_KEY = "c3xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxwc"
     TEXT = text
     VOICETYPE = 101001 # 音色类型
     CODEC = "pcm" # 音频格式：pcm/mp3
@@ -44,7 +44,7 @@ def tts(text):
 
         def on_synthesis_start(self, session_id):
             '''
-            session_id: 请求session id，类型字符串
+            session_id: 请求session id,类型字符串
             '''
             super().on_synthesis_start(session_id)
 
