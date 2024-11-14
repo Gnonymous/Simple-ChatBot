@@ -32,11 +32,11 @@ I will update this project soon after the end of this term. Please wait and see.
 ### File Structure:
 
 ```markdown
-├─ [Exp_Report.md]「详细的实验报告」
+├─ Exp_Report.md「详细的实验报告」
 ├─ README.md
 ├─ asr
-├─ [chatbot_withoutGUI.py]「基于终端的chatbot——了解后端处理」
-├─ [chatbot_withGUI.py]「基于GUI交互的chatbot——串联前后端处理」
+├─ chatbot_withoutGUI.py「基于终端的chatbot——了解后端处理」
+├─ chatbot_withGUI.py「基于GUI交互的chatbot——串联前后端处理」
 ├─ common
 ├─ examples
 │  ├─ asr
@@ -65,3 +65,11 @@ I will update this project soon after the end of this term. Please wait and see.
 * [if __name__ == "__main__":](https://github.com/Gnonymous/Simple-ChatBot/blob/main/chatbot_withGUI.py#L133)「处理主线程」
 
 <img src="img/image-20241106220858199.png" alt="image-20241106220858199"  />
+
+---
+
+### Note：
+
+⚠️该项目仅作学习交流使用，鼓励在此基础上进行二次开发更新，切勿因抄袭导致课程不及格！
+
+⚠️The project is only for learning and communication use, encourage secondary development and update on the basis of again, do not plagiarism lead to course failure!
