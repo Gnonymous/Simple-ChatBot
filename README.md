@@ -43,7 +43,7 @@ I will update this project soon after the end of this term. Please wait and see.
 
 在腾讯云平台上申请创建了密钥，从而调用上述功能接口api/sdk，图12 为私钥申请记录：
 
-![image-20241106220603418](/Users/gnonymous/Library/Application Support/typora-user-images/image-20241106220603418.png)
+![image-20241106220603418](img/image-20241106220603418.png)
 图12 私钥申请记录
 
 #### 2.2 青云客智能聊天机器人
