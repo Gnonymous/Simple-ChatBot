@@ -15,9 +15,9 @@ I will update this project soon after the end of this term. Please wait and see.
 
 ---
 
-## Overview：
+## Overview
 
-### Pipeline:
+### Pipeline
 
 ![image-20241106220644365](img/image-20241106220644365.png)
 
@@ -31,7 +31,7 @@ I will update this project soon after the end of this term. Please wait and see.
 >
 > 该项目并不复杂，并没有复杂的前后端，“后端“以``函数``的形式。
 
-### File Structure:
+### File Structure
 
 ```markdown
 ├─ Exp_Report.md「详细的实验报告」
@@ -49,7 +49,7 @@ I will update this project soon after the end of this term. Please wait and see.
 
 ---
 
-## Quick Start：
+## Quick Start
 
 > [!TIP]
 >
@@ -72,7 +72,7 @@ I will update this project soon after the end of this term. Please wait and see.
 
 ---
 
-## Others:
+## Others
 
 > [!CAUTION]
 >
