@@ -27,6 +27,8 @@ I will update this project soon after the end of this term. Please wait and see.
 * 前端：
   * 基于 **Tkinter** 的GUI
 
+> [!NOTE]
+>
 > 该项目并不复杂，并没有复杂的前后端，“后端“以``函数``的形式。
 
 ### File Structure:
@@ -49,6 +51,8 @@ I will update this project soon after the end of this term. Please wait and see.
 
 ## Quick Start：
 
+> [!TIP]
+>
 > 1. 在使用之前，建议配合阅读[Exp_Report.md](https://github.com/Gnonymous/Simple-ChatBot/blob/main/Exp_Report.md)
 > 2. 前期请配置好[腾讯云语音识别控制平台](https://cloud.tencent.com/product/asr)与[青云客智能聊天机器人](http://api.qingyunke.com/) API Key
 > 3. 点击`开始语音对话`开始讲话，点击`停止语音对话`，静待输出响应应答
@@ -68,8 +72,10 @@ I will update this project soon after the end of this term. Please wait and see.
 
 ---
 
-### Note：
+## Others:
 
-⚠️该项目仅作学习交流使用，鼓励在此基础上进行二次开发更新，切勿因抄袭导致课程不及格！
-
-⚠️The project is only for learning and communication use, encourage secondary development and update on the basis of again, do not plagiarism lead to course failure!
+> [!CAUTION]
+>
+> ⚠️该项目仅作学习交流使用，鼓励在此基础上进行二次开发更新，切勿因抄袭导致课程不及格！
+>
+> ⚠️The project is only for learning and communication use, encourage secondary development and update on the basis of again, do not plagiarism lead to course failure!
