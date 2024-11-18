@@ -88,8 +88,6 @@ I will update this project soon after the end of this term. Please wait and see.
 
 ~~~py
 def record_and_save(filename, sample_rate=44100):
-    # 录音和保存的函数，与你提供的代码一致
-    # ...
     print("Recording... (Press 'q' to stop)")
     # 开始录音
     audio_data = []
