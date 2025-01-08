@@ -149,7 +149,7 @@ python chatbot_withGUI.py
 
 ---
 
-## Others
+## License
 
 > [!CAUTION]
 >
