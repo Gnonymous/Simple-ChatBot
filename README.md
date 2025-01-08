@@ -1,57 +1,128 @@
-# Simple-ChatBot
+<p align="center">
+  <img src="img/chatbot对话机器人.svg" alt="Simple-ChatBot" width="180"/>
+</p>
 
-Simple-ChatBot 是一个基于 Python 的简易（但蠢笨）智能语音交互机器人项目。
+<h1 align="center">Simple-ChatBot</h1>
 
-该项目是我在中南大学（CSU）人机交互（HCI）课程中的实验之一。
+<p align="center">
+  <b>🤖 智能语音交互机器人 | Voice Interactive ChatBot</b>
+</p>
 
-~~本学期结束后我会对该项目进行更新，敬请期待~~，相信它会对你大有帮助！（因为你在网上几乎找不到类似的轻量级开源资源/项目）
+<p align="center">
+  <a href="#项目介绍">简介</a> •
+  <a href="#快速开始">快速开始</a> •
+  <a href="#系统架构">架构</a> •
+  <a href="#主要功能模块">功能</a> •
+  <a href="./Exp_Report.md">文档</a>
+</p>
 
-> 🎉 The project has been finished !
+<p align="center">
+  <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License">
+  <img src="https://img.shields.io/badge/python-3.7+-blue.svg" alt="Python">
+  <img src="https://img.shields.io/badge/version-1.0.0-green.svg" alt="Version">
+  <img src="https://img.shields.io/github/issues/Gnonymous/Simple-ChatBot.svg" alt="Issues">
+  <img src="https://img.shields.io/github/stars/Gnonymous/Simple-ChatBot.svg" alt="Stars">
+  <img src="https://img.shields.io/github/last-commit/Gnonymous/Simple-ChatBot.svg" alt="Last Commit">
+</p>
+
+<div align="center">
+  <sub>Owner with ❤︎ by
+  <a href="https://github.com/Gnonymous">Gnonymous</a>
+  </sub>
+</div>
 
 ---
 
-ChatBot is an Intelligent Voice Interactive Robot based on python. 
-This project is one of the experiments in the HCI course at CSU
+> 一个轻量级的智能语音交互机器人，基于Python实现的人机对话系统。
 
-I will update this project soon after the end of this term. Please wait and see.l'm sure it will give you a great hand!(because you can't find related light-weight open source/projects on the internet)
+## 🌟 项目介绍
+
+Simple-ChatBot 是一个基于 Python 的简易（但蠢笨）智能语音交互机器人项目。本项目最初源于中南大学人机交互(HCI)课程的实验项目。
+
+~~本学期结束后我会对该项目进行更新，敬请期待~~
 
 ---
 
-## Overview
+Simple-ChatBot is a simple (but clumsy) intelligent voice interaction robot project based on Python. This project originally came from an experimental project in the HCI course at CSU.
 
-### Pipeline
+~~I will update this project after the end of this term, please stay tuned~~. 
 
-![image-20241106220644365](img/image-20241106220644365.png)
+---
 
-* 后端：语音——文本——理解——应答文本——语音
-  * 语音——文本：[腾讯云语音识别控制平台](https://cloud.tencent.com/product/asr)
-  * 文本理解应答：[青云客智能聊天机器人](http://api.qingyunke.com/)
-* 前端：
-  * 基于 **Tkinter** 的GUI
+### 🎯 核心特性
+
+- 实时语音识别与转换
+- 智能对话响应系统
+- 简洁直观的图形界面
+- 轻量级架构设计
+- 高度可定制化
+
+## 🔍 系统架构
+
+### 技术栈
+
+![System Architecture](img/image-20241106220644365.png)
 
 > [!NOTE]
 >
 > 该项目并不复杂，并没有复杂的前后端，“后端“以``函数``的形式。
 
-### File Structure
+#### 后端架构
+- **语音识别**: [腾讯云语音识别控制平台](https://cloud.tencent.com/product/asr)
+- **对话系统**: [青云客智能聊天机器人](http://api.qingyunke.com/)(有条件可以使用[Ollama](https://ollama.com/)在本地部署LLM，效果⬆️)
+- **核心处理**: Python 3.7+
 
-```markdown
-├─ Exp_Report.md「详细的实验报告」
-├─ README.md
-├─ asr
-├─ chatbot_withoutGUI.py「基于终端的chatbot——了解后端处理」
-├─ chatbot_withGUI.py「基于GUI交互的chatbot——串联前后端处理」
-├─ common
-├─ examples
-│  ├─ asr
-│  └─ tts
-├─ img
-└─ tts
+#### 前端界面
+- **GUI框架**: Tkinter
+- **交互设计**: 简约直观的用户界面
+
+## 📁 项目结构
+
+```
+Simple-ChatBot/
+├─ Exp_Report.md     # 详细实验报告
+├─ README.md         # 项目说明文档
+├─ chatbot_withoutGUI.py  # 命令行版本
+├─ chatbot_withGUI.py     # 图形界面版本
+├─ asr/              # 语音识别模块
+├─ common/           # 公共组件
+├─ examples/         # 示例代码
+│  ├─ asr/
+│  └─ tts/
+├─ img/             # 图片资源
+└─ tts/             # 语音合成模块
 ```
 
----
+## 🚀 快速开始
 
-## Quick Start
+### 前置要求
+
+1. Python 3.7 或更高版本
+2. 腾讯云API密钥配置
+3. 网络连接
+
+### 使用指南
+
+1. 克隆项目
+```bash
+git clone https://github.com/Gnonymous/Simple-ChatBot.git
+cd Simple-ChatBot
+```
+
+2. 安装依赖
+```bash
+pip install -r requirements.txt
+```
+
+3. 配置API密钥
+   - 配置[腾讯云语音识别平台API]((https://cloud.tencent.com/product/asr))
+   - 配置[青云客智能对话API](http://api.qingyunke.com/)
+
+4. 运行程序
+```bash
+python chatbot_withGUI.py
+```
+## 📌 主要功能模块
 
 > [!TIP]
 >
