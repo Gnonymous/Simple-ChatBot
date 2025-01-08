@@ -7,22 +7,21 @@
 <p align="center">
   <b>🤖 智能语音交互机器人 | Voice Interactive ChatBot</b>
 </p>
-
 <p align="center">
-  <a href="#项目介绍">简介</a> •
-  <a href="#快速开始">快速开始</a> •
-  <a href="#系统架构">架构</a> •
-  <a href="#主要功能模块">功能</a> •
+  <a href="#-项目介绍">简介</a> •
+  <a href="#-快速开始">快速开始</a> •
+  <a href="#-系统架构">架构</a> •
+  <a href="#-主要功能模块">功能</a> •
   <a href="./Exp_Report.md">文档</a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/license-MIT-blue.svg?color=white" alt="License">
+  <img src="https://img.shields.io/badge/license-MIT-white.svg" alt="License">
   <img src="https://img.shields.io/badge/python-3.7+-blue.svg" alt="Python">
-  <img src="https://img.shields.io/badge/version-1.0.0-green.svg" alt="Version">
-  <img src="https://img.shields.io/github/issues/Gnonymous/Simple-ChatBot.svg?color=red" alt="Issues">
+  <img src="https://img.shields.io/badge/version-2.0.0-yellow.svg" alt="Version">
+  <img src="https://img.shields.io/github/issues/Gnonymous/Simple-ChatBot.svg" alt="Issues">
   <img src="https://img.shields.io/github/stars/Gnonymous/Simple-ChatBot.svg" alt="Stars">
-  <img src="https://img.shields.io/github/last-commit/Gnonymous/Simple-ChatBot.svg?color=yellow" alt="Last Commit">
+  <img src="https://img.shields.io/github/last-commit/Gnonymous/Simple-ChatBot.svg" alt="Last Commit">
 </p>
 
 <div align="center">
