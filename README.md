@@ -17,12 +17,12 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License">
+  <img src="https://img.shields.io/badge/license-MIT-blue.svg?color=white" alt="License">
   <img src="https://img.shields.io/badge/python-3.7+-blue.svg" alt="Python">
   <img src="https://img.shields.io/badge/version-1.0.0-green.svg" alt="Version">
-  <img src="https://img.shields.io/github/issues/Gnonymous/Simple-ChatBot.svg" alt="Issues">
+  <img src="https://img.shields.io/github/issues/Gnonymous/Simple-ChatBot.svg?color=red" alt="Issues">
   <img src="https://img.shields.io/github/stars/Gnonymous/Simple-ChatBot.svg" alt="Stars">
-  <img src="https://img.shields.io/github/last-commit/Gnonymous/Simple-ChatBot.svg" alt="Last Commit">
+  <img src="https://img.shields.io/github/last-commit/Gnonymous/Simple-ChatBot.svg?color=yellow" alt="Last Commit">
 </p>
 
 <div align="center">
