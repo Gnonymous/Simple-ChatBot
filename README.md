@@ -17,11 +17,16 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/license-MIT-white.svg" alt="License">
-  <img src="https://img.shields.io/badge/python-3.7+-blue.svg" alt="Python">
+  <img src="https://img.shields.io/badge/python-3.8+-blue.svg" alt="Python">
   <img src="https://img.shields.io/badge/version-2.0.0-yellow.svg" alt="Version">
   <img src="https://img.shields.io/github/issues/Gnonymous/Simple-ChatBot.svg" alt="Issues">
-  <img src="https://img.shields.io/github/stars/Gnonymous/Simple-ChatBot.svg" alt="Stars">
   <img src="https://img.shields.io/github/last-commit/Gnonymous/Simple-ChatBot.svg" alt="Last Commit">
+</p>
+<p align="center">
+  <a href="https://github.com/Gnonymous/Simple-ChatBot/blob/main/Exp_Report.md">
+    <img src="https://img.shields.io/badge/Document-Exp-red.svg" alt="License">
+  </a>
+  <img src="https://img.shields.io/github/stars/Gnonymous/Simple-ChatBot.svg" alt="Stars">
 </p>
 
 <div align="center">
