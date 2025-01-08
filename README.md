@@ -12,7 +12,7 @@
   <a href="#-快速开始">快速开始</a> •
   <a href="#-系统架构">架构</a> •
   <a href="#-主要功能模块">功能</a> •
-  <a href="./Exp_Report.md">文档</a>
+  <a href="./Exp_Report.md">详细文档</a>
 </p>
 
 <p align="center">
@@ -23,7 +23,7 @@
   <img src="https://img.shields.io/github/last-commit/Gnonymous/Simple-ChatBot.svg" alt="Last Commit">
 </p>
 <p align="center">
-  <a href="https://github.com/Gnonymous/Simple-ChatBot/blob/main/Exp_Report.md">
+  <a href="./Exp_Report.md">
     <img src="https://img.shields.io/badge/Document-Exp-red.svg" alt="License">
   </a>
   <img src="https://img.shields.io/github/stars/Gnonymous/Simple-ChatBot.svg" alt="Stars">
@@ -101,7 +101,7 @@ Simple-ChatBot/
 
 ### 前置要求
 
-1. Python 3.7 或更高版本
+1. Python 3.8 或更高版本
 2. 腾讯云API密钥配置
 3. 网络连接
 
@@ -119,7 +119,7 @@ pip install -r requirements.txt
 ```
 
 3. 配置API密钥
-   - 配置[腾讯云语音识别平台API]((https://cloud.tencent.com/product/asr))
+   - 配置[腾讯云语音识别平台API](https://cloud.tencent.com/product/asr)
    - 配置[青云客智能对话API](http://api.qingyunke.com/)
 
 4. 运行程序
